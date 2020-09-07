@@ -16,7 +16,7 @@ class Bot:
        email_in.send_keys(email)
 
        pw_in = self.driver.find_element_by_xpath('//*[@id="pass"]')
-       pw_in.send_keys(password) #poe aqui a password
+       pw_in.send_keys(password) 
 
        login_btn = self.driver.find_element_by_xpath('//*[@id="u_0_d"]')
        login_btn.click()
