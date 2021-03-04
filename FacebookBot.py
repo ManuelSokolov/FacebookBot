@@ -22,7 +22,7 @@ class Bot:
        login_btn.click()
 
     def sendMessageFacebook(self, persons, message):
-        # time to close notifications because i dont know how to close them
+        # time to close notifications 
         time.sleep(10)
         for person in persons:
             sendMessageBtn = self.driver.find_element_by_xpath('//*[@id="mount_0_0"]/div/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/span/div/div[1]')
